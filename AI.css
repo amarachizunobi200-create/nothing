@@ -1,0 +1,1644 @@
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+/* =========================
+   HERO SECTION
+========================= */
+
+.hero-section {
+    background-image: url(./image/Screen+Shot+2023-02-27+at+10.52.58+AM.webp);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero {
+    background-color: rgba(0, 0, 0, 0.628);
+    height: 100vh;
+}
+
+.navbar-a .box {
+    background-color: #da5d2f;
+    padding: 20px;
+    font-size: 15px;
+}
+
+.navbar {
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    animation: show 3s ease forwards;
+    animation-delay: 2s;
+}
+
+@keyframes show {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.navbar-a a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.logo {
+    width: 40%;
+}
+
+.logo img {
+    width: 40%;
+    max-width: 100%;
+}
+
+.body {
+    display: grid;
+    grid-template-columns: 150px minmax(0, 600px) auto;
+    animation: show 3s ease forwards;
+    animation-delay: 2s;
+}
+
+.hero-body {
+    min-width: 0;
+}
+
+.hero-body h1 {
+    color: white;
+    font-size: 50px;
+    font-family: ff-market-pro;
+}
+
+.hero-body b {
+    color: #E7C488;
+    font-size: 50px;
+    font-family: "Brush Script MT", cursive;
+}
+
+.hero-body p {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.hero-body button {
+    color: white;
+    background-color: #da5d2f09;
+    border: 3px solid white;
+    padding: 15px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.hero-body button:hover {
+    background-color: white;
+    color: #da5d2f;
+}
+
+.hero-body .she {
+    background-color: #da5d2f;
+    border: 3px solid #da5d2f;
+}
+
+.hero-body .she:hover {
+    background-color: white;
+    color: #da5d2f;
+    border: 3px solid white;
+}
+
+
+/* =========================
+   DOT PATTERN
+========================= */
+
+.logo2 {
+    width: 100%;
+    padding-top: 4px;
+}
+
+.logo2 img {
+    width: 100%;
+    height: 20vh;
+    display: block;
+}
+
+
+/* =========================
+   EVERYTHING PLUS
+========================= */
+
+.be {
+    color: #da5d2f;
+    font-family: "Brush Script MT", cursive;
+    font-size: 40px;
+    animation: slideup 3s ease forwards;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    font-family: Georgia, serif;
+    animation: slideup 3s ease forwards;
+}
+
+.pe {
+    text-align: center;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 18px;
+    animation: slideup 3s ease forwards;
+}
+
+.body1 {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    font-family: "Segoe UI", sans-serif;
+    font-size: 20px;
+}
+
+.body3 {
+    text-align: center;
+    padding: 30px;
+    min-width: 0;
+}
+
+.body2 {
+    width: 200px;
+    max-width: 100%;
+    padding-left: 79px;
+    margin: auto;
+}
+
+.body2 img {
+    width: 150px;
+    height: 100px;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.hey3 {
+    font-family: Georgia, serif;
+    font-size: 22px;
+    text-decoration: underline #da5d2f;
+}
+
+.hey4 {
+    font-family: "Segoe UI", sans-serif;
+    font-weight: normal;
+}
+
+@keyframes slideup {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* =========================
+   MEMBERSHIP BUTTON
+========================= */
+
+.diy {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.hi {
+    background: #da5d2f;
+    color: white;
+    border: 3px solid #da5d2f;
+    width: 300px;
+    height: 60px;
+    margin: 90px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.hi:hover {
+    background: white;
+    color: #da5d2f;
+}
+
+.that {
+    padding-left: 200px;
+}
+
+
+/* =========================
+   JESSE McBRIDE DESKTOP
+========================= */
+
+.two-color {
+    background: linear-gradient(to right, #DA5D2F 70%, #24282D 30%);
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 100px 650px minmax(0, 1fr) 100px;
+    padding: 40px;
+    overflow: hidden;
+}
+
+.two-image {
+    background-image: url(./image/Dots.png);
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    margin-left: 30px;
+    animation: slideup 3s ease forwards;
+}
+
+.image-container {
+    position: relative;
+}
+
+.two-image .okay {
+    width: 100%;
+    height: 390px;
+    margin-top: 30px;
+    margin-left: -50px;
+    display: block;
+    animation: slideup 3s ease forwards;
+}
+
+.arrow {
+    position: absolute;
+    width: 100px;
+    top: 2px;
+    left: -130px;
+    height: 40px;
+}
+
+.goal {
+    padding-top: 10px;
+    padding-left: 60px;
+    min-width: 0;
+}
+
+.goal p {
+    color: white;
+    font-size: 25px;
+    line-height: 40px;
+    margin-top: 55px;
+}
+
+.goal b {
+    color: white;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.goal .hop {
+    color: rgb(20, 19, 19);
+    font-size: 20px;
+}
+
+.two-color9 {
+    display: none;
+}
+
+
+/* =========================
+   SECOND HERO
+========================= */
+
+.hero-body1 {
+    padding-top: 40px;
+    min-width: 0;
+}
+
+.hero-sectio {
+    background-image: url(./image/images\ \(3\).jpg);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.her {
+    background: rgba(0, 0, 0, 0.628);
+    height: 80vh;
+}
+
+.hero-body1 h1 {
+    color: white;
+    font-size: 50px;
+    font-family: ff-market-pro;
+}
+
+.hero-body1 b {
+    color: #E7C488;
+    font-size: 50px;
+    font-family: "Brush Script MT", cursive;
+}
+
+.hero-body1 p {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.hero-body1 button {
+    color: white;
+    background-color: #da5d2f09;
+    border: 3px solid white;
+    padding: 15px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.hero-body1 button:hover {
+    background-color: white;
+    color: #da5d2f;
+}
+
+.hero-body1 .she {
+    background-color: #da5d2f;
+    border: 3px solid #da5d2f;
+}
+
+.hero-body1 .she:hover {
+    background-color: white;
+    color: #da5d2f;
+}
+
+
+/* =========================
+   PODCAST DESKTOP
+========================= */
+
+.last {
+    background: #EFEFEF;
+    min-height: 120vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.last > img,
+.last9 > img {
+    width: 100%;
+    height: 19vh;
+    display: block;
+    object-fit: cover;
+}
+
+.separation {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 70px 60px;
+}
+
+
+/* LEFT SIDE */
+
+.chalk {
+    padding-left: 0;
+}
+
+.chalk > p {
+    font-family: "Segoe UI", sans-serif;
+    font-size: 25px;
+    margin: 0 0 25px 0;
+}
+
+.board {
+    background: white;
+    width: 450px;
+    max-width: 100%;
+    min-height: 450px;
+    text-align: center;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+.chalk .see {
+    width: 100%;
+    height: 300px;
+    padding: 0;
+    object-fit: cover;
+    display: block;
+}
+
+.not {
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Segoe UI", sans-serif;
+    line-height: 1.5;
+    padding-top: 25px;
+}
+
+
+/* RIGHT SIDE */
+
+.girl {
+    position: relative;
+    padding: 20px 0 0 80px;
+    max-width: 500px;
+}
+
+.girl h5 {
+    font-size: 35px;
+    line-height: 1.15;
+    font-family: Georgia, serif;
+    margin: 0 0 25px 0;
+}
+
+.girl span {
+    color: #DA5D2F;
+    font-size: 35px;
+    font-family: "Brush Script MT", cursive;
+}
+
+.girl p {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Segoe UI", sans-serif;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.girl button {
+    background: #DA5D2F;
+    color: white;
+    border: 3px solid #DA5D2F;
+    cursor: pointer;
+    padding: 10px;
+    width: 220px;
+    height: 45px;
+    font-size: 15px;
+}
+
+.girl button:hover {
+    background: white;
+    color: #DA5D2F;
+}
+
+.girl .arro {
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    left: -5px;
+    top: 100px;
+    object-fit: contain;
+}
+
+
+/* =========================
+   MOBILE PODCAST
+========================= */
+
+.last9 {
+    display: none;
+}
+
+
+
+
+/* =========================
+   GUIDE DESKTOP
+========================= */
+
+.deee {
+    display: grid;
+    grid-template-columns: 500px minmax(0, 1fr);
+    padding-left: 60px;
+}
+
+.sad {
+    width: 600px;
+    max-width: 100%;
+}
+
+.them {
+    width: 100%;
+    margin-top: 150px;
+}
+
+.them img {
+    width: 100%;
+    max-width: 100%;
+    animation: slideup 3s ease forwards;
+}
+
+.sad h6 {
+    font-size: 30px;
+    animation: slideup 3s ease forwards;
+    font-family: Georgia, serif;
+}
+
+.sad .bread {
+    font-size: 20px;
+    font-family: "Segoe UI", sans-serif;
+    color: #da5d2f;
+}
+
+.sad .sa {
+    font-size: 20px;
+    font-family: "Segoe UI", sans-serif;
+}
+
+.sad input {
+    width: 300px;
+    max-width: 100%;
+    font-size: 15px;
+    background: #F6F8FA;
+    border: 1px solid #F6F8FA;
+    padding: 10px;
+}
+
+.sad select {
+    width: 325px;
+    max-width: 100%;
+    height: 40px;
+    font-size: 15px;
+    background: #F6F8FA;
+    padding: 10px;
+}
+
+.sad .tea {
+    font-size: 20px;
+    font-family: "Segoe UI", sans-serif;
+    padding-left: 100px;
+}
+
+.sad b {
+    font-size: 23px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.sad .milk {
+    background: #DA5D2F;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    width: 309px;
+    height: 40px;
+    border: 1px solid #DA5D2F;
+}
+
+.deee2 {
+    display: none;
+}
+
+
+/* =========================
+   DAWN DESKTOP
+========================= */
+
+.two-colo {
+    background: linear-gradient(to left, #DA5D2F 70%, #24282D 30%);
+    height: 90vh;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 100px minmax(0, 1fr) 650px 100px;
+    padding: 40px;
+}
+
+.two-imag {
+    background-image: url(./image/Square-outline-grey.webp);
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    margin-left: 5px;
+    margin-top: 300px;
+    animation: slideup 3s ease forwards;
+}
+
+.image-containe {
+    position: relative;
+}
+
+.two-imag .okay {
+    width: 170%;
+    height: 450px;
+    margin-top: -290px;
+    margin-left: 40px;
+    display: block;
+    animation: slideup 3s ease forwards;
+}
+
+.arr {
+    position: absolute;
+    width: 100px;
+    top: 35px;
+    left: 360px;
+    height: 20px;
+}
+
+.goa {
+    padding-top: 10px;
+    padding-left: 150px;
+    min-width: 0;
+}
+
+.goa p {
+    color: white;
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 55px;
+}
+
+.goa b {
+    color: white;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.goa .hop {
+    color: rgb(20, 19, 19);
+}
+
+.two-colo7 {
+    display: none;
+}
+
+
+/* =========================
+   FOUNDER DESKTOP
+========================= */
+
+.two-color2 {
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 100px 650px minmax(0, 1fr) 100px;
+    padding: 40px;
+    overflow: hidden;
+}
+
+.two-image2 {
+    background-image: url(./image/Dots.png);
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    margin-left: 150px;
+    animation: slideup 3s ease forwards;
+}
+
+.image-container2 {
+    position: relative;
+}
+
+.two-image2 .okay2 {
+    width: 350px;
+    height: 450px;
+    margin-top: 30px;
+    margin-left: -190px;
+    background-size: cover;
+    animation: slideup 3s ease forwards;
+}
+
+.arrow2 {
+    position: absolute;
+    width: 100px;
+    top: 220px;
+    left: -290px;
+    height: 50px;
+}
+
+.goal2 {
+    padding-top: 10px;
+    padding-left: 60px;
+    min-width: 0;
+}
+
+.goal2 p {
+    color: black;
+    font-size: 24px;
+    line-height: 40px;
+    margin-top: 55px;
+    font-family: serif;
+    font-weight: 800;
+}
+
+.goal2 b {
+    color: black;
+    font-size: 20px;
+    margin-top: 30px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.goal2 button {
+    color: white;
+    background: #da5d2f;
+    border: 3px solid #DA5D2F;
+    padding: 10px;
+    font-size: 12px;
+    cursor: pointer;
+    font-family: sans-serif;
+    width: 200px;
+    height: 40px;
+}
+
+.box2 {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.box9 {
+    background: rgba(0, 0, 0, 0.628);
+    width: 250px;
+    height: 100px;
+    margin-top: -210px;
+    margin-left: -350px;
+    padding-left: 20px;
+    position: absolute;
+}
+
+.box30 {
+    color: #fff;
+}
+
+.box9 p {
+    font-size: 20px;
+    color: #E4E7AE;
+    font-family: cursive;
+}
+
+.box9 b {
+    color: white;
+    font-size: 9px;
+}
+
+.two {
+    display: none;
+}
+
+
+/* =========================
+   BOTTOM DOT IMAGE
+========================= */
+
+img.be {
+    width: 100%;
+    height: 100px;
+    padding-top: 30px;
+    display: block;
+}
+
+
+/* =========================
+   EMAIL SECTION
+========================= */
+
+.me {
+    background-image: url(./image/OIP.ctQcW5M15K98AuouIy8sowAAAA);
+    height: 130vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.m {
+    background: rgba(0, 0, 0, 0.687);
+    height: 117vh;
+    padding-top: 100px;
+    padding-left: 70px;
+    text-align: center;
+}
+
+.m .sa {
+    font-size: 35px;
+    font-family: Georgia, serif;
+    color: white;
+}
+
+.m input {
+    width: 300px;
+    max-width: 90%;
+    font-size: 15px;
+    background: #F6F8FA;
+    border: 1px solid #F6F8FA;
+    padding: 10px;
+}
+
+.m select {
+    width: 325px;
+    max-width: 90%;
+    height: 40px;
+    font-size: 15px;
+    background: #F6F8FA;
+    padding: 10px;
+}
+
+.m .tea {
+    font-size: 20px;
+    font-family: "Segoe UI", sans-serif;
+    padding-left: 10px;
+}
+
+.m b {
+    font-size: 35px;
+    font-family: "Brush Script MT", cursive;
+    color: #DA5D2F;
+}
+
+.m .milk {
+    background: #DA5D2F;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    width: 309px;
+    max-width: 90%;
+    height: 40px;
+    border: 1px solid #DA5D2F;
+}
+
+.m span {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+.so {
+    background: #24282D;
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+}
+
+.diva {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    padding-top: 25px;
+}
+
+.so img {
+    width: 120px;
+    height: 120px;
+    max-width: 100%;
+}
+
+.so .amara {
+    text-align: center;
+    font-family: "Segoe UI", sans-serif;
+    color: white;
+    background: #24282D;
+}
+
+.amara {
+    padding-right: 50px;
+    padding-left: 60px;
+}
+
+.amara p {
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.amar {
+    padding-right: 50px;
+}
+
+.amar h1,
+.how h1,
+.watch h1 {
+    color: white;
+    font-size: 19px;
+}
+
+.amar a,
+.how a,
+.watch a {
+    color: white;
+    font-size: 17px;
+    line-height: 30px;
+}
+
+.how,
+.watch {
+    padding-right: 50px;
+}
+
+.perfume {
+    padding-right: 40px;
+}
+
+.perfume h1 {
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+}
+
+footer {
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+}
+
+a {
+    color: #a84c2a;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* =========================================================
+   TABLET / MOBILE
+   ========================================================= */
+
+@media (max-width: 968px) {
+
+    /* HERO */
+
+    .navbar {
+        display: none;
+    }
+
+    .body {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+    .hero-body {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .hero-body h1 {
+        font-size: 40px;
+    }
+
+    .hero-body b {
+        font-size: 40px;
+    }
+
+    .hero-body p {
+        font-size: 18px;
+    }
+
+    .hero-body button {
+        padding: 15px;
+        width: 100%;
+        max-width: 400px;
+        margin-top: 10px;
+    }
+
+
+    /* EVERYTHING PLUS */
+
+    .body1 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .body3 {
+        padding: 30px 20px;
+    }
+
+    .body2 {
+        padding-left: 0;
+        margin: auto;
+    }
+
+    .diy {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .hi {
+        margin: 40px;
+    }
+
+    .that {
+        padding-left: 1px;
+    }
+
+
+    /* ==========================================
+       JESSE MOBILE
+       KEEPING YOUR ORIGINAL DESIGN
+    ========================================== */
+
+    .two-color {
+        display: none;
+    }
+
+    .two-color9 {
+        background: linear-gradient(to right, #DA5D2F 70%, #24282D 30%);
+        height: 130vh;
+        margin-top: 10px;
+        display: grid;
+        grid-template-columns: auto;
+        padding: 40px;
+        overflow: hidden;
+    }
+
+    .two-color9 .two-image {
+        background-image: url(./image/Dots.png);
+        height: 200px;
+        width: 150px;
+        background-size: cover;
+        margin-left: 170px;
+        top: 2px;
+    }
+
+    .two-color9 .image-container {
+        position: relative;
+    }
+
+    .two-color9 .two-image .okay {
+        width: 150%;
+        height: 250px;
+        margin-top: 45px;
+        margin-left: -51px;
+        display: block;
+    }
+
+    .two-color9 .arrow {
+        position: absolute;
+        width: 100px;
+        top: 190px;
+        left: -120px;
+        height: 40px;
+    }
+
+    .two-color9 .goal {
+        padding-top: 30px;
+        padding-left: 0;
+        text-align: left;
+    }
+
+
+    /* SECOND HERO */
+
+    .hero-sectio {
+        height: 80vh;
+    }
+
+    .her {
+        height: 80vh;
+    }
+
+    .hero-body1 h1 {
+        font-size: 40px;
+    }
+
+    .hero-body1 b {
+        font-size: 40px;
+    }
+
+    .hero-body1 p {
+        font-size: 15px;
+    }
+
+    .hero-body1 button {
+        font-size: 10px;
+    }
+
+
+    /* PODCAST MOBILE */
+
+
+
+    /* GUIDE MOBILE */
+
+    .deee {
+        display: none;
+    }
+
+    .deee2 {
+        display: block;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .sad {
+        width: 100%;
+        max-width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .sad h6 {
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    .sad .bread {
+        font-size: 30px;
+        font-weight: 800;
+    }
+
+    .sad input,
+    .sad select {
+        max-width: calc(100% - 20px);
+    }
+
+
+    /* DAWN MOBILE */
+
+    .two-colo {
+        display: none;
+    }
+
+    .two-colo7 {
+        display: grid;
+        background: linear-gradient(to left, #DA5D2F 80%, #24282D 20%);
+        height: 120vh;
+        overflow: hidden;
+        grid-template-columns: auto;
+        padding: 40px;
+    }
+
+    .two-colo7 .two-imag {
+        height: 100px;
+        width: 100px;
+        margin-left: 100px;
+        margin-top: 2px;
+    }
+
+    .two-colo7 .two-imag .okay {
+        width: 220%;
+        height: 250px;
+        margin-top: 50px;
+        margin-left: -150px;
+    }
+
+    .two-colo7 .arr {
+        position: absolute;
+        width: 100px;
+        top: 205px;
+        left: 5px;
+        height: 40px;
+    }
+
+    .two-colo7 .goa {
+        padding-top: 180px;
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    .two-colo7 .goa p {
+        font-size: 20px;
+        line-height: 20px;
+        margin-top: 55px;
+    }
+
+    .two-colo7 .goa b {
+        font-size: 30px;
+        margin-top: 30px;
+    }
+
+
+    /* FOUNDER MOBILE */
+
+    .two-color2 {
+        display: none;
+    }
+
+    .two {
+        display: grid;
+        height: 120vh;
+        grid-template-columns: auto;
+        padding: 40px;
+        overflow: hidden;
+    }
+
+    .two-image2 {
+        background-image: url(./image/Dots.png);
+        height: 200px;
+        width: 300px;
+        background-size: cover;
+        margin-left: 20px;
+    }
+
+    .image-container2 {
+        position: relative;
+    }
+
+    .two-image2 .okay2 {
+        width: 250px;
+        height: 350px;
+        margin-top: 30px;
+        margin-left: 100px;
+        background-size: cover;
+    }
+
+    .arrow2 {
+        position: absolute;
+        width: 50px;
+        top: 180px;
+        left: 50px;
+        height: 50px;
+    }
+
+    .goal2 {
+        padding-top: 150px;
+        padding-left: 7px;
+    }
+
+    .goal2 p {
+        font-size: 25px;
+        line-height: 40px;
+        margin-top: 55px;
+        font-family: serif;
+        font-weight: 900;
+    }
+
+    .goal2 b {
+        font-size: 20px;
+        line-height: 20px;
+        font-weight: 400;
+    }
+
+    .goal2 button {
+        width: 200px;
+        height: 40px;
+    }
+
+    .box2 {
+        display: flex;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .box9 {
+        background: rgba(0, 0, 0, 0.628);
+        width: 250px;
+        height: 100px;
+        margin-top: -155px;
+        margin-left: -50px;
+        padding-left: 1px;
+        position: absolute;
+    }
+
+    .box30 {
+        color: #fff;
+    }
+
+    .box9 p {
+        font-size: 20px;
+        color: #E4E7AE;
+        font-family: cursive;
+    }
+
+    .box9 b {
+        color: white;
+        font-size: 9px;
+    }
+
+
+    /* EMAIL */
+
+    .me {
+        height: 130vh;
+    }
+
+    .m {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .m input,
+    .m select {
+        max-width: 90%;
+    }
+
+
+    /* FOOTER */
+
+    .so {
+        height: 1100px;
+    }
+
+    .diva {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .so img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .so .amara {
+        text-align: center;
+    }
+
+    .amara {
+        padding-right: 0;
+        padding-left: 10px;
+    }
+
+    .amara p {
+        line-height: 30px;
+    }
+
+    .amar {
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+
+    .how {
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+
+    .watch {
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+
+    .perfume {
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+
+    footer {
+        padding-top: 100px;
+    }
+}
+
+
+/* =========================================================
+   SMALL PHONES
+   These adjustments are for the rest of the page.
+   The Jesse section above is intentionally NOT changed.
+========================================================= */
+
+@media (max-width: 600px) {
+
+    h2 {
+        font-size: 32px;
+        padding: 0 15px;
+    }
+
+    .pe {
+        font-size: 16px;
+        padding: 0 15px;
+    }
+
+    .hero-body h1 {
+        font-size: 34px;
+    }
+
+    .hero-body b {
+        font-size: 34px;
+    }
+
+    .hero-body p {
+        font-size: 16px;
+    }
+
+    .hero-body1 h1 {
+        font-size: 34px;
+    }
+
+    .hero-body1 b {
+        font-size: 34px;
+    }
+
+    .hero-body1 p {
+        font-size: 14px;
+    }
+
+    .body3 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .hi {
+        width: 260px;
+        max-width: 80%;
+        margin: 40px auto;
+        display: block;
+    }
+
+    .chalk {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .girl {
+        padding-left: 15px;
+    }
+
+    .sad {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .m .sa {
+        font-size: 30px;
+    }
+
+    .m b {
+        font-size: 30px;
+    }
+}
+
+
+
+
+/* TABLET  */
+
+@media (max-width: 968px) {
+
+    /* Hide desktop version */
+    .last {
+        display: none;
+    }
+
+    /* Show mobile version */
+    .last9 {
+        display: block;
+        background: #EFEFEF;
+        min-height: 100vh;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .last9 > img {
+        width: 100%;
+        height: 19vh;
+        display: block;
+        object-fit: cover;
+    }
+
+    .last9 .separation {
+        display: flex;
+        flex-direction: column;
+        gap: 70px;
+        max-width: 100%;
+        padding: 50px 25px;
+        margin: 0;
+    }
+
+
+    /* PODCAST TEXT FIRST */
+
+    .last9 .girl {
+        order: 1;
+        width: 100%;
+        max-width: 100%;
+        padding: 20px 10px 0 70px;
+        box-sizing: border-box;
+    }
+
+    .last9 .girl h5 {
+        font-size: 32px;
+        line-height: 1.2;
+        margin-bottom: 25px;
+    }
+
+    .last9 .girl span {
+        font-size: 35px;
+    }
+
+    .last9 .girl p {
+        font-size: 18px;
+        line-height: 1.5;
+        margin-bottom: 30px;
+    }
+
+    .last9 .girl .arro {
+        width: 80px;
+        height: 30px;
+        left: -5px;
+        top: 100px;
+    }
+
+
+    /* LATEST EPISODE SECOND */
+
+    .last9 .chalk {
+        order: 2;
+        width: 100%;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+
+    .last9 .chalk > p {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    .last9 .board {
+        width: 100%;
+        max-width: 400px;
+        min-height: 500px;
+        margin: 0 auto;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .last9 .chalk .see {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .last9 .not {
+        font-size: 18px;
+        line-height: 1.5;
+        padding-top: 25px;
+    }
+}
+
+
+/* =========================
+   SMALL PHONES
+========================= */
+
+@media (max-width: 600px) {
+
+    .last9 {
+        min-height: 180px;
+    }
+
+    .last9 .separation {
+        padding: 40px 15px;
+        gap: 60px;
+    }
+
+    .last9 .girl {
+        padding-left: 60px;
+        padding-right: 5px;
+    }
+
+    .last9 .girl h5 {
+        font-size: 29px;
+    }
+
+    .last9 .girl span {
+        font-size: 32px;
+    }
+
+    .last9 .girl p {
+        font-size: 16px;
+        line-height: 1.55;
+    }
+
+    .last9 .girl .arro {
+        width: 65px;
+        left: -5px;
+        top: 90px;
+    }
+
+    .last9 .chalk {
+        padding: 0 5px;
+    }
+
+    .last9 .chalk > p {
+        font-size: 20px;
+    }
+
+    .last9 .board {
+        width: 100%;
+        min-height: 450px;
+        padding: 15px;
+    }
+
+    .last9 .chalk .see {
+        height: 250px;
+    }
+
+    .last9 .not {
+        font-size: 16px;
+        line-height: 1.45;
+    }
+}
+
+
+.okay12{
+    background-color: #da5d2f;
+    width: 15px;
+    height: 15px;
+    color: white;
+    padding: 10px;
+    font-size: 10px;
+}
